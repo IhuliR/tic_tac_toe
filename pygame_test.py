@@ -108,7 +108,7 @@ def main():
                     game.make_move(clicked_row, clicked_col, current_player)
 
                     if game.check_win(current_player):
-                        result = f'Победили {current_player}.'
+                        result = f'ахахахахах! Меня читают: {current_player}.'
                         print(result)
                         save_result(result)
                         running = False
@@ -126,4 +126,4 @@ def main():
     pygame.quit()
 
 if __name__ == '__main__':
-    main()
+    print('looool')
